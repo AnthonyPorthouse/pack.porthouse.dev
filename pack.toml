@@ -1,0 +1,12 @@
+name = "porthouse.dev"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "ea30c61e1ffa78b8aec32c6b41f39f8b09d11d879af5b3d724770e9f96218a20"
+
+[versions]
+fabric = "0.15.11"
+minecraft = "1.21"

@@ -1,0 +1,13 @@
+name = "Tiny Item Animations"
+filename = "tia-1.21-1.2-fabric.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/wMkevcSR/versions/TQEjRQNl/tia-1.21-1.2-fabric.jar"
+hash-format = "sha1"
+hash = "0e67c3086468c10e021eace54fbdcc8f569f881b"
+
+[update]
+[update.modrinth]
+mod-id = "wMkevcSR"
+version = "TQEjRQNl"

@@ -1,0 +1,13 @@
+name = "Fresh Wolves Variants"
+filename = "Fresh Wolve Variants 1.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/h0WclodT/versions/AeHCLgam/Fresh%20Wolve%20Variants%201.1.zip"
+hash-format = "sha1"
+hash = "c4797c5846121dc5b7b003e4cb8f6080dce555d1"
+
+[update]
+[update.modrinth]
+mod-id = "h0WclodT"
+version = "AeHCLgam"

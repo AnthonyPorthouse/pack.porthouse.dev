@@ -6,6 +6,11 @@ hash = "6e4a1ad878793ab3c3b7df30ea8e4177a65c3632d1b35277683d6f6b333cb073"
 metafile = true
 
 [[files]]
+file = "mods/advanced-backups.pw.toml"
+hash = "291437d4ac4dff1bd7efc32a95b93aea6d3dfb94a6e3e13ba942b105e5a90d59"
+metafile = true
+
+[[files]]
 file = "mods/ambientsounds.pw.toml"
 hash = "e014ad2b1396a9f75c0e833808ca4a068543f705cf983b67afe1e1b631a3653f"
 metafile = true
@@ -151,6 +156,11 @@ hash = "019e6f258127d947cf0b43227c198365b107e35d4e16e29ee8388986aaf62d77"
 metafile = true
 
 [[files]]
+file = "mods/luckperms.pw.toml"
+hash = "37215db466ab8ec3d0e7d05490833254411d092e8b9656d14583f0c15bd7ed37"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "e37792db4c4b69e11243c7470f0f2a791dc016381e460cd5616eccb6b567b5ab"
 metafile = true
@@ -203,6 +213,11 @@ metafile = true
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
 hash = "aada4cd63f86d67e01f89f68f9ae898b423125dbf3caf8487d54666f409cc9db"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "bea01f76d30359b4013aee8df6863fda0be45e03cbc2e0a4c80f4bc88db3b27a"
 metafile = true
 
 [[files]]

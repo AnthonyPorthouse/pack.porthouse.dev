@@ -77,7 +77,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "53262ac9ab485f8fe3fa2766045a8562149ce4274b1dde9e6529ae7a1a850ec8"
+hash = "4491bc724154747145c79dd157d9c38571cc6c17b08c007d207981ff2d82926f"
 metafile = true
 
 [[files]]
@@ -97,7 +97,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "363498eab749571f10e1f22528dc4e156a6df2cd1f80681c8bfa57cbf131dfc6"
+hash = "27ac8197dad6a1d489a153c86559915412b03e9101173694a5a22ad9a2b2ab43"
 metafile = true
 
 [[files]]
@@ -146,6 +146,16 @@ hash = "dfc7306d9eeaa3f4ddb22e6ef73141eba09f1891a584fdeeacaa9fbb2d182a77"
 metafile = true
 
 [[files]]
+file = "mods/inventory-profiles-next.pw.toml"
+hash = "042a9f13b4202e4bee0d9bcee017233de613049bf677410b78b140fea9e5cc19"
+metafile = true
+
+[[files]]
+file = "mods/libipn.pw.toml"
+hash = "4c42a272bc98113243eaf48c03a00b31bfeb61ce377e0189e5839cfdc4e3d41e"
+metafile = true
+
+[[files]]
 file = "mods/lighty.pw.toml"
 hash = "102f7e8d7490e1ed36c25db3f1af7d51483806f57f856c2aeb03686594a10417"
 metafile = true
@@ -182,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/pl3xmap.pw.toml"
-hash = "aea87264801b0f0f0e705666c7ba21c28e69cd926c3f7885ce77274b769d862e"
+hash = "21077c8fbfcdc0e8d2ed9ed7d36e111df6718d39dc049a4da8859964481fd8e6"
 metafile = true
 
 [[files]]

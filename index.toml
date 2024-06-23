@@ -42,7 +42,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "b488580fb9fc59ad54b8ebd7b742aa98d2063ed12b75b624a6b6f36b40b02005"
+hash = "9e88e04c45ff4dfada16671a39400d7df13bb2d3e3def334fa5eed6862c689ab"
 metafile = true
 
 [[files]]
@@ -156,6 +156,11 @@ hash = "042a9f13b4202e4bee0d9bcee017233de613049bf677410b78b140fea9e5cc19"
 metafile = true
 
 [[files]]
+file = "mods/iris.pw.toml"
+hash = "35a5bdcb09b0b51a4161a62c0b8ab507cb58a936f036f60410704b291134d1ba"
+metafile = true
+
+[[files]]
 file = "mods/libipn.pw.toml"
 hash = "4c42a272bc98113243eaf48c03a00b31bfeb61ce377e0189e5839cfdc4e3d41e"
 metafile = true
@@ -197,12 +202,12 @@ metafile = true
 
 [[files]]
 file = "mods/pl3xmap.pw.toml"
-hash = "21077c8fbfcdc0e8d2ed9ed7d36e111df6718d39dc049a4da8859964481fd8e6"
+hash = "aea87264801b0f0f0e705666c7ba21c28e69cd926c3f7885ce77274b769d862e"
 metafile = true
 
 [[files]]
 file = "mods/placeholder-api.pw.toml"
-hash = "4ca3c259ede070bacbf8d6192c1745e41a594bc68f16793d72f416bd8437e8e4"
+hash = "25a375451c4b12c4a0f40bd4dee9770b6489f5231c48b9b3ba08e3b95ada7023"
 metafile = true
 
 [[files]]

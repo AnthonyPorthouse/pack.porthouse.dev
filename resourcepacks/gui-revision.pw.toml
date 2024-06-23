@@ -1,0 +1,13 @@
+name = "GUI Revision"
+filename = "GUIRevision_2.1.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/orgtdk9U/versions/mDXY94Dh/GUIRevision_2.1.0.zip"
+hash-format = "sha1"
+hash = "a423cd98f7b8305197647f21bceb6fbbcf9f4ce2"
+
+[update]
+[update.modrinth]
+mod-id = "orgtdk9U"
+version = "mDXY94Dh"

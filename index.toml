@@ -21,6 +21,11 @@ hash = "58134b8f4cca95555746efad25cc8a56c39ed57ba05f78d3aa61b603d378180c"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "420663a6a26a3d60ca7bd07f942ba7ab3379daaf26772181a040e2caf97ff6e7"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "332b3dcd4f72c3c122e8201bfbb76a78a329dc4ffe1056bad6096330ba07d765"
 metafile = true
@@ -241,6 +246,11 @@ hash = "297e529dbfa1570ead84e94bca126716857fcd6515ff9dcf751ff4f0c9f6319b"
 metafile = true
 
 [[files]]
+file = "resourcepacks/dramatic-skys.pw.toml"
+hash = "7929d60b3814bbd319e504efdc7996039c990680edf3718dbe76e7506a02d410"
+metafile = true
+
+[[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "0a4676b25054d0bd8cc97adc49b2fca2e4af4f2c92fc3dca484c7fea169aebff"
 metafile = true
@@ -248,4 +258,19 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-wolves-variants.pw.toml"
 hash = "2f0a396468b52811c8161bad3cecd229fc93e3c177e028cce2b72034d4e7506c"
+metafile = true
+
+[[files]]
+file = "resourcepacks/gui-revision.pw.toml"
+hash = "d988b1b81afa031c25bf6f7e604c2ed904c93d23515ab7af081f973023d3ad46"
+metafile = true
+
+[[files]]
+file = "resourcepacks/nautilus3d.pw.toml"
+hash = "e6594ab0d556105c5a6d54d1d170c19853ed9942bb1f578598bd371f2ad1fc7c"
+metafile = true
+
+[[files]]
+file = "resourcepacks/refined-enchants.pw.toml"
+hash = "5312361a9bfbcd036fadb3af11a07a761ff8bf227db3d1cf09fa654459b4b4f8"
 metafile = true

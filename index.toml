@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "global_packs/required_data/blazeandcaves-advancements-pack.pw.toml"
+hash = "9aacf57a200efb19800f599382e4d72bddad5e3ac40f4397a1a7d9cff937bbd9"
+metafile = true
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "6e4a1ad878793ab3c3b7df30ea8e4177a65c3632d1b35277683d6f6b333cb073"
 metafile = true
@@ -141,6 +146,11 @@ hash = "26466dd3f9aaaaf89f5090f3486ed371f9d7bf7762f385584ad8cc5bf272308f"
 metafile = true
 
 [[files]]
+file = "mods/globalpacks.pw.toml"
+hash = "c56923340ce6f01a1d26636a15396bf55d83bb8ce68a0ccce515f577bdd322fd"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "29b7078e678c6b90f607f9b09eaedc927fb274382963f39138b72243f2714224"
 metafile = true
@@ -201,8 +211,13 @@ hash = "d8d16415897778ba9e6bf5cd74920edce456787f48c4e8fc6e2aa1d17fdffdc7"
 metafile = true
 
 [[files]]
+file = "mods/paginatedadvancements.pw.toml"
+hash = "47f673ce50dc6fdfd8e40f47035b9454b1130298f77dec65c14908fa4955213b"
+metafile = true
+
+[[files]]
 file = "mods/pl3xmap.pw.toml"
-hash = "aea87264801b0f0f0e705666c7ba21c28e69cd926c3f7885ce77274b769d862e"
+hash = "21077c8fbfcdc0e8d2ed9ed7d36e111df6718d39dc049a4da8859964481fd8e6"
 metafile = true
 
 [[files]]

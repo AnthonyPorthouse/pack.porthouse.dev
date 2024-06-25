@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "332b3dcd4f72c3c122e8201bfbb76a78a329dc4ffe1056bad6096330ba07d765"
+hash = "edb53d431cd695320addc4de3b81da5dc3c085564dbc544eecc180fc1e1174df"
 metafile = true
 
 [[files]]
@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/c2me-fabric.pw.toml"
-hash = "9e88e04c45ff4dfada16671a39400d7df13bb2d3e3def334fa5eed6862c689ab"
+hash = "02b86828f925b9c077affdcad610425414931c7dbe083fef42e3743acc80f7ab"
 metafile = true
 
 [[files]]
@@ -92,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "4491bc724154747145c79dd157d9c38571cc6c17b08c007d207981ff2d82926f"
+hash = "02d5a13f745ac0a0f107a071649fd44b3c6820a60e926f3bfc4907ac59194edf"
 metafile = true
 
 [[files]]
@@ -267,7 +267,7 @@ metafile = true
 
 [[files]]
 file = "mods/visuality.pw.toml"
-hash = "297e529dbfa1570ead84e94bca126716857fcd6515ff9dcf751ff4f0c9f6319b"
+hash = "3d8b2a28e2a62e8c8369a6eb2e8afb03853a693f978db1fe4e879bd29ad0cf8c"
 metafile = true
 
 [[files]]

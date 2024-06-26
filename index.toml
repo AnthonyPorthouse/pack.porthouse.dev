@@ -117,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "e9870688b5c78a9cc50f79922fdac81e1999279f5567cd5092952adaf6471313"
+hash = "fc96b91acafcbaf76bf94d2dff7d53a53fdbf52ccc6030acbfffe13a365cc982"
 metafile = true
 
 [[files]]
@@ -258,6 +258,11 @@ metafile = true
 [[files]]
 file = "mods/spark.pw.toml"
 hash = "bea01f76d30359b4013aee8df6863fda0be45e03cbc2e0a4c80f4bc88db3b27a"
+metafile = true
+
+[[files]]
+file = "mods/super-better-grass.pw.toml"
+hash = "2c0773301e5c6f46f77509496f18f3b07826deb17a5eeb6daab42912737b439f"
 metafile = true
 
 [[files]]

@@ -70,6 +70,9 @@
                     rel="noreferrer noopener"
                     target="_blank"
                   >{{title}}</a>
+
+                  <small>{{#with (lookup ../versions [id]) }} {{ version_number }} {{/with}}</small>
+
                 </h3>
                 <p>{{description}}</p>
               </div>

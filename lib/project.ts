@@ -70,4 +70,5 @@ export interface ModrithProject {
 
 export interface ModrinthVersion {
     id: string
+    project_id: string
 }

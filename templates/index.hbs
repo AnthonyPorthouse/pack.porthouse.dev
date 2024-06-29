@@ -1,7 +1,11 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A packwiz minecraft modpack" />
+    <meta name="generator" content="packwiz-renderer 0.1.0" />
+
     <title>{{pack.name}}</title>
   </head>
   <body>
@@ -30,7 +34,9 @@
                 height="128"
                 src="{{logoUrl}}"
                 alt=""
+                {{#if (gte @index 8)}}
                 loading="lazy"
+                {{/if}}
               />
               <div>
                 <h3>

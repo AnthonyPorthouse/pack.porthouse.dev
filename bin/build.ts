@@ -6,7 +6,6 @@ import { getIndexFile } from "../lib/getIndexFile";
 import { getModFile, isCurseforgeFile, isModrinthFile } from "../lib/getModFile";
 import { getPackFile } from "../lib/getPackFile";
 import { getProjects } from "../lib/modrinth/getProjects";
-import { getVersions } from "../lib/modrinth/getVersions";
 import { ModrinthVersion } from "../lib/modrinth/project";
 import { NormalizedModData, normalizeModData } from "../lib/normalizeModData";
 
@@ -42,6 +41,9 @@ async function main() {
   const sortedProjects = projects.sort((a, b) =>
     a.title.localeCompare(b.title)
   );
+
+  Handlebars.registerHelper('lte', (val1: number, val2: number) => val1 <= val2)
+  Handlebars.registerHelper('gte', (val1: number, val2: number) => val1 >= val2)
 
   const template = Handlebars.compile(
     readFileSync("./templates/index.hbs", "utf-8")

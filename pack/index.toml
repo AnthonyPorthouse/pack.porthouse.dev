@@ -56,6 +56,11 @@ hash = "02b86828f925b9c077affdcad610425414931c7dbe083fef42e3743acc80f7ab"
 metafile = true
 
 [[files]]
+file = "mods/carpet.pw.toml"
+hash = "48c6a4e310601532ac6a9e7f2f814128f75af9a541aee5a6e39d2d5475d967af"
+metafile = true
+
+[[files]]
 file = "mods/chunks-fade-in.pw.toml"
 hash = "72480d08269245cf3a692706994c95004b91d8afe212cf3314575ef8e16a7e93"
 metafile = true

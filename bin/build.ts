@@ -2,7 +2,7 @@ import Axios from "axios";
 import { mkdirSync, readFileSync, writeFileSync } from "fs";
 import Handlebars from "handlebars";
 import { getIndexFile } from "../lib/getIndexFile";
-import { getModFile } from "../lib/getModFile";
+import { getModFile, isModrinthFile } from "../lib/getModFile";
 import { getPackFile } from "../lib/getPackFile";
 import { ModrinthVersion, ModrithProject } from "../lib/project";
 
@@ -16,9 +16,8 @@ async function main() {
   const versions: {[key: string]: ModrinthVersion} = {};
 
   try {
-    const modrinthProjects = mods
-      .map((mod) => mod.update.modrinth?.["mod-id"])
-      .filter((modId) => modId !== undefined);
+    const modrinthProjects = mods.filter(isModrinthFile)
+      .map((mod) => mod.update.modrinth["mod-id"])
 
     const url = new URL("/v2/projects", "https://api.modrinth.com/");
 
@@ -34,9 +33,8 @@ async function main() {
 
     // Fetch all versions we have
 
-    const modrinthVersions = mods
-      .map((mod) => mod.update.modrinth?.["version"])
-      .filter((modId) => modId !== undefined);
+    const modrinthVersions = mods.filter(isModrinthFile)
+      .map((mod) => mod.update.modrinth.version)
 
     const versionUrl = new URL("/v2/versions", "https://api.modrinth.com/");
 

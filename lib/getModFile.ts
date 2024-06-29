@@ -1,6 +1,6 @@
 import { readFileSync } from "fs";
 import { parse } from "smol-toml";
-type ModFile = ModrinthFile | CurseforgeFile
+export type ModFile = ModrinthFile | CurseforgeFile
 
 
 interface BaseModFile {
@@ -18,7 +18,7 @@ interface BaseModFile {
 }
 
 
-interface ModrinthFile extends BaseModFile {
+export interface ModrinthFile extends BaseModFile {
     download: {
         url: string
         "hash-format": string,
@@ -33,7 +33,7 @@ interface ModrinthFile extends BaseModFile {
     }
 }
 
-interface CurseforgeFile extends BaseModFile {
+export interface CurseforgeFile extends BaseModFile {
     download: {
         mode: string
         "hash-format": string,
@@ -68,6 +68,6 @@ export function isModrinthFile(file: ModFile): file is ModrinthFile {
     return 'modrinth' in file.update
 }
 
-export function isCurseforgeFile(file: ModFile): file is ModrinthFile {
+export function isCurseforgeFile(file: ModFile): file is CurseforgeFile {
     return 'curseforge' in file.update
 }

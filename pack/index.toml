@@ -32,7 +32,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "1c5bd8c6fc2a71871365d50b37d019ada686751657d35bb42f3c7b1f93391b48"
+hash = "29d7f33e4792af33ee7b4e090280b6d3de5ed4b3d7f8d235c8cac63c5efe383b"
 metafile = true
 
 [[files]]
@@ -147,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingtree.pw.toml"
-hash = "c905c782c9d072071f34d6e29e7636d24125e0f06281788f4782268dfa476ef4"
+hash = "6113e9ad5b738d95e0f517e5672f1c82b2045204af8be0505c05a4b6a78404b7"
 metafile = true
 
 [[files]]
@@ -182,7 +182,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "35a5bdcb09b0b51a4161a62c0b8ab507cb58a936f036f60410704b291134d1ba"
+hash = "850556d97d0fa30f37bdb7e50a0c085778b409db8649f174005755142199e3a3"
 metafile = true
 
 [[files]]
@@ -262,7 +262,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "7cb74081033769dbc3d65702e4ddcf83e4a8152f7e6122ea50d7e98909c3e549"
+hash = "280cf7ad4ec95bd95eef81a7f327095c5f40e1b8aa45cea91284bfd19395d69e"
 metafile = true
 
 [[files]]

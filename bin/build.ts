@@ -1,10 +1,14 @@
-import Axios from "axios";
+import "dotenv/config";
 import { mkdirSync, readFileSync, writeFileSync } from "fs";
 import Handlebars from "handlebars";
+import { getMods } from "../lib/curseforge/getMods";
 import { getIndexFile } from "../lib/getIndexFile";
-import { getModFile, isModrinthFile } from "../lib/getModFile";
+import { getModFile, isCurseforgeFile, isModrinthFile } from "../lib/getModFile";
 import { getPackFile } from "../lib/getPackFile";
-import { ModrinthVersion, ModrithProject } from "../lib/project";
+import { getProjects } from "../lib/modrinth/getProjects";
+import { getVersions } from "../lib/modrinth/getVersions";
+import { ModrinthVersion } from "../lib/modrinth/project";
+import { NormalizedModData, normalizeModData } from "../lib/normalizeModData";
 
 async function main() {
   const pack = getPackFile();
@@ -12,41 +16,24 @@ async function main() {
   const index = getIndexFile(pack.index.file);
   const mods = index.files.map((file) => getModFile(file.file));
 
-  const projects: ModrithProject[] = [];
-  const versions: {[key: string]: ModrinthVersion} = {};
+  const projects: NormalizedModData[] = [];
+  const versions: { [key: string]: ModrinthVersion } = {};
 
   try {
-    const modrinthProjects = mods.filter(isModrinthFile)
-      .map((mod) => mod.update.modrinth["mod-id"])
+    const modrinthProjects = mods
+      .filter(isModrinthFile)
+      .map((mod) => mod.update.modrinth["mod-id"]);
 
-    const url = new URL("/v2/projects", "https://api.modrinth.com/");
+    const modrinthMods = await getProjects(modrinthProjects);
 
-    url.searchParams.set("ids", JSON.stringify(modrinthProjects));
+    const curseforgeModIds = mods.filter(isCurseforgeFile).map((mod) => mod.update.curseforge["project-id"])
+    const curseforgeMods = await getMods(curseforgeModIds)
 
-    const res = await Axios.get<ModrithProject[]>(url.toString(), {
-      headers: {
-        "User-Agent":
-          "anthonyporthouse/packwiz-renderer/0.1.0 (anthony@porthou.se)",
-      },
-    });
-    res.data.map((project) => projects.push(project));
+    projects.push(...await normalizeModData([...modrinthMods, ...curseforgeMods]))
 
     // Fetch all versions we have
 
-    const modrinthVersions = mods.filter(isModrinthFile)
-      .map((mod) => mod.update.modrinth.version)
-
-    const versionUrl = new URL("/v2/versions", "https://api.modrinth.com/");
-
-    versionUrl.searchParams.set("ids", JSON.stringify(modrinthVersions));
-
-    const versionRes = await Axios.get<ModrinthVersion[]>(versionUrl.toString(), {
-      headers: {
-        "User-Agent":
-          "anthonyporthouse/packwiz-renderer/0.1.0 (anthony@porthou.se)",
-      },
-    });
-    versionRes.data.map((version: ModrinthVersion) => versions[version.project_id] = version);
+    
   } catch (e) {
     console.error(e);
     return;
@@ -61,14 +48,14 @@ async function main() {
   );
   const output = template({
     pack: pack,
-    mods: sortedProjects.filter((project) => project.project_type === "mod"),
+    mods: sortedProjects.filter((project) => project.type === "mod"),
     resourcePacks: sortedProjects.filter(
-      (project) => project.project_type === "resourcepack"
+      (project) => project.type === "resourcepack"
     ),
-    versions: versions
+    versions: versions,
   });
 
-  mkdirSync('./public', { recursive: true })
+  mkdirSync("./public", { recursive: true });
 
   writeFileSync("./public/index.html", output);
 }

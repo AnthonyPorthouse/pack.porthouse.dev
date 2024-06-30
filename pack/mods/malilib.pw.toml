@@ -1,0 +1,11 @@
+name = "Malilib"
+filename = "malilib-fabric-1.21-0.19.999-sakura.5.jar"
+side = "both"
+
+[download]
+url = "https://github.com/sakura-ryoko/malilib/releases/download/1.21-sakura.5/malilib-fabric-1.21-0.19.999-sakura.5.jar"
+
+# A number of tools can generate the hash for you, including 7-zip and sha256sum
+# packwiz supports a number of hashes, including sha256, sha512, sha1 and md5
+hash-format = "sha256"
+hash = "6f6b13241809b4dc16ae16cd9d14c867ec3c6f5f3f3225dccbd4410fdc2d1333"

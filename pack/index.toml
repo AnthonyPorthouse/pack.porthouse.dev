@@ -211,6 +211,16 @@ hash = "37215db466ab8ec3d0e7d05490833254411d092e8b9656d14583f0c15bd7ed37"
 metafile = true
 
 [[files]]
+file = "mods/malilib.pw.toml"
+hash = "84f48c291936009106b01c67501b4886967d94e7dc15957df00cc38f9cdd2630"
+metafile = true
+
+[[files]]
+file = "mods/minihud.pw.toml"
+hash = "88bb948268f86f71173bc6e11f731e8a1b18fd65d0af11bd4e926abcec33b9e0"
+metafile = true
+
+[[files]]
 file = "mods/modmenu.pw.toml"
 hash = "e37792db4c4b69e11243c7470f0f2a791dc016381e460cd5616eccb6b567b5ab"
 metafile = true

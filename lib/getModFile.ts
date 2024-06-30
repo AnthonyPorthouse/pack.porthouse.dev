@@ -13,7 +13,7 @@ interface BaseModFile {
         hash: string,
     }
 
-    update: {
+    update?: {
     }
 }
 
@@ -25,7 +25,7 @@ export interface ModrinthFile extends BaseModFile {
         hash: string,
     }
 
-    update: {
+    update?: {
         modrinth: {
             'mod-id': string
             version: string
@@ -40,7 +40,7 @@ export interface CurseforgeFile extends BaseModFile {
         hash: string,
     }
 
-    update: {
+    update?: {
         curseforge: {
             'project-id': number
             'file-id': number
@@ -65,9 +65,9 @@ export function getModFile(path: string): ModFile {
 }
 
 export function isModrinthFile(file: ModFile): file is ModrinthFile {
-    return 'modrinth' in file.update
+    return file.update != undefined && 'modrinth' in file.update
 }
 
 export function isCurseforgeFile(file: ModFile): file is CurseforgeFile {
-    return 'curseforge' in file.update
+    return file.update != undefined && 'curseforge' in file.update
 }

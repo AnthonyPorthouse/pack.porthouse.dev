@@ -3,7 +3,7 @@ import { mkdirSync, readFileSync, writeFileSync } from "fs";
 import Handlebars from "handlebars";
 import { getMods } from "../lib/curseforge/getMods";
 import { getIndexFile } from "../lib/getIndexFile";
-import { getModFile, isCurseforgeFile, isModrinthFile } from "../lib/getModFile";
+import { getModFile, isCurseforgeFile, isExternalFile, isModrinthFile } from "../lib/getModFile";
 import { getPackFile } from "../lib/getPackFile";
 import { getProjects } from "../lib/modrinth/getProjects";
 import { ModrinthVersion } from "../lib/modrinth/project";
@@ -28,7 +28,7 @@ async function main() {
     const curseforgeModIds = mods.filter(isCurseforgeFile).map((mod) => mod.update.curseforge["project-id"])
     const curseforgeMods = await getMods(curseforgeModIds)
 
-    projects.push(...await normalizeModData([...modrinthMods, ...curseforgeMods]))
+    projects.push(...await normalizeModData([...modrinthMods, ...curseforgeMods, ...mods.filter(isExternalFile)]))
 
     // Fetch all versions we have
 

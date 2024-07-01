@@ -1,5 +1,6 @@
 import { getClasses } from "./curseforge/getClasses";
 import { CurseforgeMod } from "./curseforge/types";
+import { ExternalFile } from "./getModFile";
 import { ModrithProject } from "./modrinth/project";
 
 export interface NormalizedModData {
@@ -7,23 +8,42 @@ export interface NormalizedModData {
   summary: string;
   url: string;
   logoUrl: string;
-  source: "curseforge" | "modrinth";
+  source: "curseforge" | "modrinth" | 'external';
   version?: string;
   type: "mod" | "modpack" | "resourcepack" | "shader";
 }
 
 function isModrinthMod(
-  mod: CurseforgeMod | ModrithProject
+  mod: CurseforgeMod | ModrithProject | ExternalFile
 ): mod is ModrithProject {
   return "client_side" in mod;
 }
 
+function isExternalFile(
+  mod: CurseforgeMod | ModrithProject | ExternalFile
+): mod is ExternalFile {
+  return 'download' in mod
+}
+
 export async function normalizeModData(
-  mods: (CurseforgeMod | ModrithProject)[]
+  mods: (CurseforgeMod | ModrithProject | ExternalFile)[]
 ) {
   const curseforgeCategories = await getClasses();
 
   return mods.map((mod): NormalizedModData => {
+
+    if (isExternalFile(mod)) {
+      return {
+        source: 'external',
+        title: mod.name,
+        summary: '',
+        url: mod.download.url,
+        logoUrl: '',
+        type: 'mod'
+
+      }
+    }
+
     if (isModrinthMod(mod)) {
       return {
         source: "modrinth",

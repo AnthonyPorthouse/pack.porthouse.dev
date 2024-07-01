@@ -28,6 +28,7 @@
           {{#each mods}}
 
             <li style="display: flex; align-items: center; gap: 1rem">
+              {{#if logoUrl}}
               <img
                 style="aspect-ratio: 1"
                 width="128"
@@ -38,6 +39,9 @@
                 loading="lazy"
                 {{/if}}
               />
+              {{else}}
+              <div style="width: 128px; height: 128px"></div>
+              {{/if}}
               <div>
                 <h3>
                   <a

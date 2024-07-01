@@ -17,7 +17,7 @@ metafile = true
 
 [[files]]
 file = "mods/ambientsounds.pw.toml"
-hash = "e014ad2b1396a9f75c0e833808ca4a068543f705cf983b67afe1e1b631a3653f"
+hash = "de619f9de200e4f42075d884a943ef426f3ce133268362432e7537b5d24bff7e"
 metafile = true
 
 [[files]]
@@ -101,8 +101,13 @@ hash = "da7d89a5ef4c67e74396b4a1decc94331260ec76c72723bcde45e048904cf0e2"
 metafile = true
 
 [[files]]
+file = "mods/cubes-without-borders.pw.toml"
+hash = "0ccb67864aa95ee32318023ff5e1782a3d0df70311d061b2716ba6a93507df41"
+metafile = true
+
+[[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "93bcf3b2c06d84b695decb6ebf35f08cb3868ca2766fdb5f96d082bd274f33cf"
+hash = "a89158810657bf4a9cae0d45183a2ef5e7e327fb7e4aadb6743a6892370316a8"
 metafile = true
 
 [[files]]
@@ -182,7 +187,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "850556d97d0fa30f37bdb7e50a0c085778b409db8649f174005755142199e3a3"
+hash = "315648c1b6910b274d4a16bda8eba7ddf380d928edb20c0c36f3ff9776e30fe5"
 metafile = true
 
 [[files]]
@@ -312,7 +317,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "0a4676b25054d0bd8cc97adc49b2fca2e4af4f2c92fc3dca484c7fea169aebff"
+hash = "35f0b0b7dbdeff56d07ab8b503987a44d6ef4b05d3f5b9dfdf19f8fdb30ee1db"
 metafile = true
 
 [[files]]

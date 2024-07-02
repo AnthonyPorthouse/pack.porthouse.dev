@@ -20,6 +20,8 @@ cd pack || exit 1
 
 cd - || exit 1
 
-npx -y github:anthonyporthouse/packwiz-renderer build ./pack --output ./public
+mkdir public
+
+npx --verbose -y github:anthonyporthouse/packwiz-renderer build --output ./public ./pack
 
 cp -r pack/* public

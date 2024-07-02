@@ -177,12 +177,12 @@ metafile = true
 
 [[files]]
 file = "mods/indium.pw.toml"
-hash = "dfc7306d9eeaa3f4ddb22e6ef73141eba09f1891a584fdeeacaa9fbb2d182a77"
+hash = "ec7ddc7195eaec44adb0a060c48d919bedb82775a3b683f8da21ab2eb6921ab1"
 metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "042a9f13b4202e4bee0d9bcee017233de613049bf677410b78b140fea9e5cc19"
+hash = "d7252eff6f55a9660369bab379aae1bad5b4d4ff6e10d501c74b85f4b3e783cc"
 metafile = true
 
 [[files]]
@@ -192,7 +192,7 @@ metafile = true
 
 [[files]]
 file = "mods/libipn.pw.toml"
-hash = "4c42a272bc98113243eaf48c03a00b31bfeb61ce377e0189e5839cfdc4e3d41e"
+hash = "e20e907617af83dfb1971c8e055ef9ae18bb7c7ef50c3fbfa4694aac2193169f"
 metafile = true
 
 [[files]]
@@ -282,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "7cb74081033769dbc3d65702e4ddcf83e4a8152f7e6122ea50d7e98909c3e549"
+hash = "280cf7ad4ec95bd95eef81a7f327095c5f40e1b8aa45cea91284bfd19395d69e"
 metafile = true
 
 [[files]]
@@ -316,8 +316,13 @@ hash = "7929d60b3814bbd319e504efdc7996039c990680edf3718dbe76e7506a02d410"
 metafile = true
 
 [[files]]
+file = "resourcepacks/fresh-animations-extensions.pw.toml"
+hash = "21bf0205d09a3cf7a43cffdb4b2cb2e05e60bac4fd74f527b447487460410af5"
+metafile = true
+
+[[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "35f0b0b7dbdeff56d07ab8b503987a44d6ef4b05d3f5b9dfdf19f8fdb30ee1db"
+hash = "256b67c869770482657d4dd31124bf705c780c5c798206af522bcd5392c7ded9"
 metafile = true
 
 [[files]]

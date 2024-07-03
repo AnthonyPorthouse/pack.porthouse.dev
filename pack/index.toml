@@ -102,7 +102,12 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "0ccb67864aa95ee32318023ff5e1782a3d0df70311d061b2716ba6a93507df41"
+hash = "7494ae8e888e32baf72312266fdf53419c5f3b52908fde66dc0a160cdbed4e2c"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "bcd6ab63410cedbf87e7056337ddf50059655c59a23189520a22eab8419b8415"
 metafile = true
 
 [[files]]
@@ -117,7 +122,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "de858d34871042c79ee2a664582c1be5afee9421a870038f8cbeba520d406181"
+hash = "1f68d5395758ab07440ceb28ba568cd9724085f853bc53cc9167669c2ef124d5"
 metafile = true
 
 [[files]]
@@ -127,7 +132,7 @@ metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "27ac8197dad6a1d489a153c86559915412b03e9101173694a5a22ad9a2b2ab43"
+hash = "b2af1699d567294bf20e80fd62069f65aca68746a78655984d30332b65ebd5a4"
 metafile = true
 
 [[files]]
@@ -202,7 +207,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "965df9fe9405eed2f5b8c60aa736e2324a26378edb6a3e10054e7ddfca4bd3a2"
+hash = "f8f01a98a7c1b5055535a6aa3a09e671d25409985cab6fe8d7db58d96565c00f"
 metafile = true
 
 [[files]]
@@ -217,12 +222,12 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "84f48c291936009106b01c67501b4886967d94e7dc15957df00cc38f9cdd2630"
+hash = "d536733ce72928c90149f16b96f4ce394521957849f95a0ce697ace57ccd87b0"
 metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "88bb948268f86f71173bc6e11f731e8a1b18fd65d0af11bd4e926abcec33b9e0"
+hash = "16c14633887fedf55c3909d472b2b02ff5ddaa6be457fceff17b1fbdd434529e"
 metafile = true
 
 [[files]]

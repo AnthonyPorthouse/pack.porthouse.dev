@@ -117,7 +117,7 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "1f68d5395758ab07440ceb28ba568cd9724085f853bc53cc9167669c2ef124d5"
+hash = "86e971b1f82d63c791f7e7574c0ebfc9d1e4b6a23085257599ded29ed365ce6c"
 metafile = true
 
 [[files]]
@@ -323,11 +323,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
 hash = "256b67c869770482657d4dd31124bf705c780c5c798206af522bcd5392c7ded9"
-metafile = true
-
-[[files]]
-file = "resourcepacks/fresh-wolves-variants.pw.toml"
-hash = "2f0a396468b52811c8161bad3cecd229fc93e3c177e028cce2b72034d4e7506c"
 metafile = true
 
 [[files]]

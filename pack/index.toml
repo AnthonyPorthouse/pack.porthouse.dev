@@ -102,12 +102,17 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "e9a3ef2e83f5dde6e4afd668291aa7557b81cefd9a2485d1213929f50741e223"
+hash = "3a657177869950a044a93ba958d977eaea3393aecb3bc124c4d8c509cff7ccde"
 metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
 hash = "7494ae8e888e32baf72312266fdf53419c5f3b52908fde66dc0a160cdbed4e2c"
+metafile = true
+
+[[files]]
+file = "mods/ding.pw.toml"
+hash = "8156a0dadd3a641388d15d8dbf788531eb2c903f6b5d2ed1376e81e6acf85569"
 metafile = true
 
 [[files]]
@@ -173,6 +178,11 @@ metafile = true
 [[files]]
 file = "mods/globalpacks.pw.toml"
 hash = "c56923340ce6f01a1d26636a15396bf55d83bb8ce68a0ccce515f577bdd322fd"
+metafile = true
+
+[[files]]
+file = "mods/ichunutil.pw.toml"
+hash = "1b731b62c1f7be330e88d87cdc5f826443b92cdaa667a34e7e0461230ad21eaf"
 metafile = true
 
 [[files]]
@@ -246,6 +256,11 @@ hash = "8221d0376bdd5c13684d44ce2dcfc994f4aeea8d21546b9a562e71517ba1ce80"
 metafile = true
 
 [[files]]
+file = "mods/nvidium.pw.toml"
+hash = "ec4bc8b7c36db2dcf3f19b4e03df845c36e18477739a34531de66e2fa75ef2dc"
+metafile = true
+
+[[files]]
 file = "mods/optigui.pw.toml"
 hash = "d8d16415897778ba9e6bf5cd74920edce456787f48c4e8fc6e2aa1d17fdffdc7"
 metafile = true
@@ -292,7 +307,7 @@ metafile = true
 
 [[files]]
 file = "mods/sound-physics-remastered.pw.toml"
-hash = "aada4cd63f86d67e01f89f68f9ae898b423125dbf3caf8487d54666f409cc9db"
+hash = "fa6a6f2f838b83717c81fc505ff830e48d1e8a5680d9a01e05b91e3c380c973c"
 metafile = true
 
 [[files]]

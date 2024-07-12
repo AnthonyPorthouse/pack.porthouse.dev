@@ -6,6 +6,11 @@ hash = "3f201b437b0292eb717555cdc0d28f470e0e56ee1add8addd77b113f3a88aca8"
 metafile = true
 
 [[files]]
+file = "global_packs/required_data/renewable-resources.pw.toml"
+hash = "e7775720c1c05813ac0f310f927979fbb10fc7afdbf0c2535845a8dbf7c0a3a3"
+metafile = true
+
+[[files]]
 file = "mods/3dskinlayers.pw.toml"
 hash = "6e4a1ad878793ab3c3b7df30ea8e4177a65c3632d1b35277683d6f6b333cb073"
 metafile = true
@@ -233,6 +238,11 @@ metafile = true
 [[files]]
 file = "mods/malilib.pw.toml"
 hash = "d536733ce72928c90149f16b96f4ce394521957849f95a0ce697ace57ccd87b0"
+metafile = true
+
+[[files]]
+file = "mods/mastercutter.pw.toml"
+hash = "95d68affe28b14939aa991682b0e7c812645e321432078d51b44e170b2ae6156"
 metafile = true
 
 [[files]]

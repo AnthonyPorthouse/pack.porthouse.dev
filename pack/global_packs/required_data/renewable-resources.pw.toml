@@ -1,0 +1,13 @@
+name = "Renewable Resources"
+filename = "RenewableResources-1.2.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7gCuqufP/versions/zlQ7Z3xb/RenewableResources-1.2.1.zip"
+hash-format = "sha1"
+hash = "082d47a6996b5157ddbe01ced020b4d2608ba9d5"
+
+[update]
+[update.modrinth]
+mod-id = "7gCuqufP"
+version = "zlQ7Z3xb"

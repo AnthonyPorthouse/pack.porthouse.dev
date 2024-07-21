@@ -82,7 +82,7 @@ metafile = true
 
 [[files]]
 file = "mods/cicada.pw.toml"
-hash = "e0b80df6b8f1dfa275a1c9ee3e43f346b1839b544831fb11c5fe4204424fffc4"
+hash = "8c3342aeba36b5ff34c10f0ad6c13bbeb7ea4f040683aba80e83776697ceda0d"
 metafile = true
 
 [[files]]
@@ -107,12 +107,12 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "3a657177869950a044a93ba958d977eaea3393aecb3bc124c4d8c509cff7ccde"
+hash = "0cc365d0b8dc524a0b857c8bd162a478b1f52e5a307f18b32ef8c8091ad29259"
 metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
-hash = "7494ae8e888e32baf72312266fdf53419c5f3b52908fde66dc0a160cdbed4e2c"
+hash = "11699829fc65c378c5bcccbea9375304ce6194aed18d2f02ee733ed44879efb4"
 metafile = true
 
 [[files]]
@@ -147,7 +147,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "6cd2d021b71d8172819a6a793ea7a6276822da398c3c74a63b022991414024e5"
+hash = "9e796b52f72bd9eee7d716a5014d8214956ed3f7661d0f44af85c8a86775bbbf"
 metafile = true
 
 [[files]]
@@ -287,7 +287,7 @@ metafile = true
 
 [[files]]
 file = "mods/placeholder-api.pw.toml"
-hash = "25a375451c4b12c4a0f40bd4dee9770b6489f5231c48b9b3ba08e3b95ada7023"
+hash = "76b74629777eaf0cfa262290cd1fa108b8e0a63f14c15eb94af008d78ba50f09"
 metafile = true
 
 [[files]]
@@ -337,7 +337,7 @@ metafile = true
 
 [[files]]
 file = "mods/visuality.pw.toml"
-hash = "55f70f181fe81201201f2a1e82f462c67ef103e02e3b7b79c17369ca2a6ad6bc"
+hash = "6cb2a4cd4eb40eaf19bbb54a6d8fa23643470147e86e19fe04b820e170998ed3"
 metafile = true
 
 [[files]]

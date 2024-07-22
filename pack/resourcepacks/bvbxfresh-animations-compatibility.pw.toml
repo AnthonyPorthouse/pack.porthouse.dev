@@ -1,0 +1,13 @@
+name = "BetterVanillaBuilding x Fresh Animations compatibility"
+filename = "BVB_x_FreshAnimations_v1.2.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2ee07500f6b29b87ae88e301edf053c34b3fdbf8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4814364
+project-id = 925719

@@ -1,6 +1,11 @@
 hash-format = "sha256"
 
 [[files]]
+file = "global_packs/required_data/bettervanillabuilding-datapack.pw.toml"
+hash = "79b6f8b514a2d381df4aadc071c55f834b9cd11e8cc2941ecf578867c6c080c9"
+metafile = true
+
+[[files]]
 file = "global_packs/required_data/blazeandcaves-advancements-pack.pw.toml"
 hash = "3f201b437b0292eb717555cdc0d28f470e0e56ee1add8addd77b113f3a88aca8"
 metafile = true
@@ -87,7 +92,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "9a0135fbcfdc8f9efbed49fcb2e5641272ed218553cc37897eea94eb4fe47f1b"
+hash = "d345d14d9672063419184ece254b77a51386160916058bb24a4af7faabc88d99"
 metafile = true
 
 [[files]]
@@ -222,7 +227,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "f8f01a98a7c1b5055535a6aa3a09e671d25409985cab6fe8d7db58d96565c00f"
+hash = "063f7cc2c868b6d2351794b06120e4e9c9b3de62e65ce263aacb62ae8cfbd5f9"
 metafile = true
 
 [[files]]
@@ -237,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "d536733ce72928c90149f16b96f4ce394521957849f95a0ce697ace57ccd87b0"
+hash = "ea8ab6797291e268a95df51a49115364e6c6bbb97ed6d73b6159d54475fd9044"
 metafile = true
 
 [[files]]
@@ -247,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "16c14633887fedf55c3909d472b2b02ff5ddaa6be457fceff17b1fbdd434529e"
+hash = "2c4f6d5e67f7f9ad548556817ff6ad38a9c31212bf82b20e794f715902aee724"
 metafile = true
 
 [[files]]
@@ -282,7 +287,7 @@ metafile = true
 
 [[files]]
 file = "mods/pl3xmap.pw.toml"
-hash = "21077c8fbfcdc0e8d2ed9ed7d36e111df6718d39dc049a4da8859964481fd8e6"
+hash = "354c359ba035fa2c721be71d184e875b51439f7d832d7bdfdc678ae2530ca03a"
 metafile = true
 
 [[files]]
@@ -307,7 +312,7 @@ metafile = true
 
 [[files]]
 file = "mods/show-me-your-skin.pw.toml"
-hash = "f6bd67909c2d27d30cd414f5fcbf97bde2ab5134cd4ca0a6d86e0faf37de6b1d"
+hash = "b0e0ec47b09ae328d75c3d93f5cfaf6d7ee39739f9a38f559fa3faad6321e200"
 metafile = true
 
 [[files]]
@@ -341,6 +346,21 @@ hash = "6cb2a4cd4eb40eaf19bbb54a6d8fa23643470147e86e19fe04b820e170998ed3"
 metafile = true
 
 [[files]]
+file = "resourcepacks/bettervanillabuilding.pw.toml"
+hash = "bfd098aeb87cbfc76fe5975ac03b30245fba7ee6e9fd6d9823d9d7dcb408b40b"
+metafile = true
+
+[[files]]
+file = "resourcepacks/bvb-overlays.pw.toml"
+hash = "0442a8cc5d80ba4026a01685b96aef333eb8478cd4e56264651a1435ca9cc29d"
+metafile = true
+
+[[files]]
+file = "resourcepacks/bvbxfresh-animations-compatibility.pw.toml"
+hash = "2fd6ec05aa9242380466f91aefa5b0bd7546f424468372250812a379b9067fc6"
+metafile = true
+
+[[files]]
 file = "resourcepacks/dramatic-skys.pw.toml"
 hash = "7929d60b3814bbd319e504efdc7996039c990680edf3718dbe76e7506a02d410"
 metafile = true
@@ -358,14 +378,4 @@ metafile = true
 [[files]]
 file = "resourcepacks/gui-revision.pw.toml"
 hash = "d988b1b81afa031c25bf6f7e604c2ed904c93d23515ab7af081f973023d3ad46"
-metafile = true
-
-[[files]]
-file = "resourcepacks/nautilus3d.pw.toml"
-hash = "e6594ab0d556105c5a6d54d1d170c19853ed9942bb1f578598bd371f2ad1fc7c"
-metafile = true
-
-[[files]]
-file = "resourcepacks/refined-enchants.pw.toml"
-hash = "5312361a9bfbcd036fadb3af11a07a761ff8bf227db3d1cf09fa654459b4b4f8"
 metafile = true

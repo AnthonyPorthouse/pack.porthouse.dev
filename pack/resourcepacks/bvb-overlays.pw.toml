@@ -1,0 +1,13 @@
+name = "BetterVanillaBuilding Overlays "
+filename = "BVBoverlaysV6.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7ed525c8141cc18ea92e00e402118303162f5e55"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4763422
+project-id = 544434

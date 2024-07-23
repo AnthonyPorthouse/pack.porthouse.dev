@@ -346,6 +346,11 @@ hash = "6cb2a4cd4eb40eaf19bbb54a6d8fa23643470147e86e19fe04b820e170998ed3"
 metafile = true
 
 [[files]]
+file = "resourcepacks/bettervanillabuilding-bushy-leaves-addon.pw.toml"
+hash = "98ce82fb67efa298fd18479e2c6a0db06075401a7f42db9809591c47c4d363c9"
+metafile = true
+
+[[files]]
 file = "resourcepacks/bettervanillabuilding.pw.toml"
 hash = "bfd098aeb87cbfc76fe5975ac03b30245fba7ee6e9fd6d9823d9d7dcb408b40b"
 metafile = true

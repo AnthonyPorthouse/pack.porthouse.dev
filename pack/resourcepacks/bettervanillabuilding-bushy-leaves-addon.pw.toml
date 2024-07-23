@@ -1,0 +1,13 @@
+name = "BushyBiomes"
+filename = "BushyBiomesV2.6.4.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fce9ea61c8d98ee2c3b8a8777ac673755afc8978"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5026503
+project-id = 393803

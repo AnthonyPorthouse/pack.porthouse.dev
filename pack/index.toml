@@ -172,7 +172,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingtree.pw.toml"
-hash = "a541047b6c5cab83452b7524f58b4558924dc6cb7e6bc8655adc3e4419958090"
+hash = "39b75684d3d6f95e99328606a342efd9a843d5799289b40683cbcc19ebb2ba1b"
 metafile = true
 
 [[files]]
@@ -227,7 +227,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "063f7cc2c868b6d2351794b06120e4e9c9b3de62e65ce263aacb62ae8cfbd5f9"
+hash = "e7d29b11d3c6a390638e21989248fccd1fef89c841355c066a51486ae27f68be"
 metafile = true
 
 [[files]]
@@ -242,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "ea8ab6797291e268a95df51a49115364e6c6bbb97ed6d73b6159d54475fd9044"
+hash = "b6b3cd357074c63b7fca9058fa00d4ddc145ea3afde870653a3ebef7de185293"
 metafile = true
 
 [[files]]
@@ -252,7 +252,7 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "2c4f6d5e67f7f9ad548556817ff6ad38a9c31212bf82b20e794f715902aee724"
+hash = "9250828ab14bdbc903f2944ad4924cf71b288d93060777c43678d124acd0c134"
 metafile = true
 
 [[files]]

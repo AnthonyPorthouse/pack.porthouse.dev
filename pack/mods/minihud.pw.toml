@@ -1,11 +1,11 @@
 name = "Mini HUD"
-filename = "minihud-fabric-1.21-0.31.999-sakura.11.jar"
+filename = "minihud-fabric-1.21-0.31.999-sakura.13.jar"
 side = "client"
 
 [download]
-url = "https://github.com/sakura-ryoko/minihud/releases/download/1.21-sakura.11/minihud-fabric-1.21-0.31.999-sakura.11.jar"
+url = "https://github.com/sakura-ryoko/minihud/releases/download/1.21-sakura.13/minihud-fabric-1.21-0.31.999-sakura.13.jar"
 
 # A number of tools can generate the hash for you, including 7-zip and sha256sum
 # packwiz supports a number of hashes, including sha256, sha512, sha1 and md5
 hash-format = "sha256"
-hash = "a33ea12c4d0c2e1a726296fcd35e285ee83291ee0b8957085a13ea40f58f8a11"
+hash = "5d27642c520a3b57fc5883c449367db17042de4dc0d15614b18f2617a633abec"

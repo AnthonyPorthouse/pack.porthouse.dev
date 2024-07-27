@@ -287,7 +287,7 @@ metafile = true
 
 [[files]]
 file = "mods/pl3xmap.pw.toml"
-hash = "354c359ba035fa2c721be71d184e875b51439f7d832d7bdfdc678ae2530ca03a"
+hash = "cbb2fcfc51b897414c2ff64765ac00dec167417e308b5e5ab8da97228062cde3"
 metafile = true
 
 [[files]]

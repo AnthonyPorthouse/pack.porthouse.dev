@@ -242,7 +242,7 @@ metafile = true
 
 [[files]]
 file = "mods/malilib.pw.toml"
-hash = "b6b3cd357074c63b7fca9058fa00d4ddc145ea3afde870653a3ebef7de185293"
+hash = "702034dbed70640cc6a634dd2387264aa5beb77fceecc918a4ad68acbdd52cf1"
 metafile = true
 
 [[files]]
@@ -352,7 +352,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/bettervanillabuilding.pw.toml"
-hash = "bfd098aeb87cbfc76fe5975ac03b30245fba7ee6e9fd6d9823d9d7dcb408b40b"
+hash = "f2ac41c6da984bb4942318c79870232b20288af3bf834c800565b56de9792dab"
 metafile = true
 
 [[files]]

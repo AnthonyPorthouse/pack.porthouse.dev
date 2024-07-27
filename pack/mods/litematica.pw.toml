@@ -3,7 +3,7 @@ filename = "litematica-fabric-1.21-0.18.999-sakura.29.jar"
 side = "client"
 
 [download]
-url = "https://github.com/sakura-ryoko/litematica/releases/download/1.21-sakura.27/litematica-fabric-1.21-0.18.999-sakura.29.jar"
+url = "https://github.com/sakura-ryoko/litematica/releases/download/1.21-sakura.29/litematica-fabric-1.21-0.18.999-sakura.29.jar"
 
 # A number of tools can generate the hash for you, including 7-zip and sha256sum
 # packwiz supports a number of hashes, including sha256, sha512, sha1 and md5

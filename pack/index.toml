@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/global_data_and_resourcepacks.toml"
+hash = "974e2a77dc4be5cd5f5198ee8b5b03953ed93ae8ff81c1c811d1c08a373718e2"
+
+[[files]]
 file = "global_packs/required_data/bettervanillabuilding-datapack.pw.toml"
 hash = "79b6f8b514a2d381df4aadc071c55f834b9cd11e8cc2941ecf578867c6c080c9"
 metafile = true
@@ -127,7 +131,7 @@ metafile = true
 
 [[files]]
 file = "mods/dynamic-fps.pw.toml"
-hash = "471ae9c39007497d4c1d3f3f1a85334593ca9fdfb6521093e6faa2c01b74f624"
+hash = "03233a7e383409b517598e0c9d10c8a45c6035a35f163d15337a7bae044c4319"
 metafile = true
 
 [[files]]
@@ -182,7 +186,7 @@ metafile = true
 
 [[files]]
 file = "mods/freecam.pw.toml"
-hash = "26466dd3f9aaaaf89f5090f3486ed371f9d7bf7762f385584ad8cc5bf272308f"
+hash = "8295efb4ce9822585cb15872dbe5fa083fc08e8d88e20e4cdd4dd86976d65d11"
 metafile = true
 
 [[files]]
@@ -207,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "664b83356f5ca10ab286db442854032fa4f9d912d54b5f63452468a380335e8e"
+hash = "107ccada729331cde39b901432e7cd572dc21431c34049e86c4bfb1473b2897a"
 metafile = true
 
 [[files]]
@@ -217,7 +221,7 @@ metafile = true
 
 [[files]]
 file = "mods/libipn.pw.toml"
-hash = "4ba4a6bfb2a8a35f378cfff1ea81a46d08ee1c3ab344be34cb792aa0e5418ed2"
+hash = "aba643da33f146b46820ad14d0e7b3a61c3e7becba2ada9032218e2f0ca655d1"
 metafile = true
 
 [[files]]
@@ -227,7 +231,7 @@ metafile = true
 
 [[files]]
 file = "mods/litematica.pw.toml"
-hash = "e7d29b11d3c6a390638e21989248fccd1fef89c841355c066a51486ae27f68be"
+hash = "eacfa7ae7605832be24f85d188170d8c5b8cb1cb92e60b213c38a9f914f5ac6c"
 metafile = true
 
 [[files]]
@@ -252,7 +256,7 @@ metafile = true
 
 [[files]]
 file = "mods/minihud.pw.toml"
-hash = "9250828ab14bdbc903f2944ad4924cf71b288d93060777c43678d124acd0c134"
+hash = "d23ff2ce45fd702799c0add538a22d7bdf46398640d6b2e63a805c2e3a6e2caa"
 metafile = true
 
 [[files]]

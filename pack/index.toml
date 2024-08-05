@@ -6,7 +6,7 @@ hash = "974e2a77dc4be5cd5f5198ee8b5b03953ed93ae8ff81c1c811d1c08a373718e2"
 
 [[files]]
 file = "global_packs/required_data/bettervanillabuilding-datapack.pw.toml"
-hash = "79b6f8b514a2d381df4aadc071c55f834b9cd11e8cc2941ecf578867c6c080c9"
+hash = "2fc047b06435ace8d719ecaa23c62ec9fce79769aa29c4f5aa3e7973b08f9110"
 metafile = true
 
 [[files]]
@@ -41,7 +41,7 @@ metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
-hash = "420663a6a26a3d60ca7bd07f942ba7ab3379daaf26772181a040e2caf97ff6e7"
+hash = "af482cdaf7c5d9d5481e7cd789d98ebc17f47e4565a28af6c6365aef896d1404"
 metafile = true
 
 [[files]]
@@ -106,7 +106,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "314cd3d09bb98a39542551090e3daefd5fa3cfc184bcd134cf4c8a820e804281"
+hash = "4a9f9c1bc8b5cd47f2e7e243af68e697f7c5803d19e47b2c519653f83f6cb905"
 metafile = true
 
 [[files]]
@@ -116,7 +116,7 @@ metafile = true
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "0cc365d0b8dc524a0b857c8bd162a478b1f52e5a307f18b32ef8c8091ad29259"
+hash = "49f9898e97206a5407ca32e7fee73cf7bd901e0c4406da8bb4adbc31525f1397"
 metafile = true
 
 [[files]]
@@ -156,7 +156,7 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "9e796b52f72bd9eee7d716a5014d8214956ed3f7661d0f44af85c8a86775bbbf"
+hash = "9eb8a17e98af61f820864ce9fbe246cee75a3b86f51df8a9b92644829ea2faf8"
 metafile = true
 
 [[files]]
@@ -171,7 +171,7 @@ metafile = true
 
 [[files]]
 file = "mods/fallingleaves.pw.toml"
-hash = "860538dace2029fb4539bfc33182f560ab7ef66fcbb3427c0dd262405229a8fe"
+hash = "9b561d57bf92aa8005e567e4bb95a2b65c8ed9c3ab30de09ea6c7e66f2e4d2da"
 metafile = true
 
 [[files]]
@@ -211,7 +211,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-profiles-next.pw.toml"
-hash = "107ccada729331cde39b901432e7cd572dc21431c34049e86c4bfb1473b2897a"
+hash = "fea164dda1332d54afd1365311ba0a548fb11a475a6490026a1f00a7aa70400d"
 metafile = true
 
 [[files]]
@@ -221,7 +221,7 @@ metafile = true
 
 [[files]]
 file = "mods/libipn.pw.toml"
-hash = "aba643da33f146b46820ad14d0e7b3a61c3e7becba2ada9032218e2f0ca655d1"
+hash = "87d16fb355306f86a437eaeb3b3674ec7b56f72ac90ee71300772f4920fe1b10"
 metafile = true
 
 [[files]]

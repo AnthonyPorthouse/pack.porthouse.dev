@@ -1,13 +1,13 @@
 name = "BetterVanillaBuilding - Datapack"
-filename = "BetterVanillaBuildingV3.2-Datapack.zip"
+filename = "BetterVanillaBuildingV3.3-Datapack.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "bb028793811e5adc9c4b1a72d2422987ee38db39"
+hash = "453410b91fc8452db31c0e11da2632ac07c18c1a"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5541193
+file-id = 5580648
 project-id = 1057924

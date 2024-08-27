@@ -1,13 +1,13 @@
 name = "BetterVanillaBuilding"
-filename = "BetterVanillaBuildingV3.4.2.zip"
+filename = "BetterVanillaBuildingV3.5.zip"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "1aa56af84cde0c89622431555660a5b8c719a527"
+hash = "17ffe7b372784df495eb9ccc907ddbbf058fc5e9"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5616120
+file-id = 5637169
 project-id = 356831
